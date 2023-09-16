@@ -1,10 +1,11 @@
 import React from 'react'
-import Calender from './Components/CustomCalendar';
+import CustomCalendar from './Components/CustomCalendar';
 
 const App = () => {
   return (
-    <Calender />
-  )
+    <div className='h-screen flex items-center justify-center'>
+      <CustomCalendar />
+    </div>)
 }
 
 export default App;
